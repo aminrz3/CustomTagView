@@ -82,22 +82,23 @@ if you need delete tag when click them you can use this:
 
 ## Installation
 
-CustomTagView is available in jcenter. To install
-it, simply add the following line to your app level `build.gradle`:
+To install it, simply add the following line to your app level `build.gradle`:
 
 ```groovy
-implementation ''
+implementation 'com.github.aminrz3:CustomTagView:v1.0.0'
 ```
 
 if that alone didn't work, add this line to project level `build.gradle`
 
 ```groovy
 repositories {
+    ...
     maven {
-         url  ""
+         url  "https://jitpack.io"
     }
 }
 ```
 
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/aminrz3/CustomTagView/main/LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.5.31-f9890b)](https://kotlinlang.org/)
+[![](https://jitpack.io/v/aminrz3/CustomTagView.svg)](https://jitpack.io/#aminrz3/CustomTagView)
