@@ -21,8 +21,8 @@ You can set customView to tags with inflater
         />
 ```
 
-You can set the separator according to your text\n
-text = My name is Amin Rahimzadeh ------> Separator is space
+You can set the separator according to your text<br>
+example : My name is Amin Rahimzadeh ------> Separator is space
 ```kotlin
     val textCustomTagView = findViewById<TextCustomTagView>(R.id.textCustomTagView)
 	textCustomTagView.setCustomTagViewBuilder(object : CustomTagViewBuilder(){
