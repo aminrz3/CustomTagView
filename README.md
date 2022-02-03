@@ -99,5 +99,5 @@ repositories {
 }
 ```
 
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/aminrz3/CustomTagView/main/LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.5.31-f9890b)](https://kotlinlang.org/)
