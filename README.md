@@ -23,7 +23,7 @@ You can set customView to tags with inflater
 
 You can set the separator according to your text
 text = My name is Amin Rahimzadeh ------> Separator is space
-```Code
+```kotlin
     val textCustomTagView = findViewById<TextCustomTagView>(R.id.textCustomTagView)
 	textCustomTagView.setCustomTagViewBuilder(object : CustomTagViewBuilder(){
         override fun getTagView(inflater: LayoutInflater?, data: String?): View? {
@@ -49,7 +49,7 @@ text = My name is Amin Rahimzadeh ------> Separator is space
         />
 ```
 
-```Code
+```kotlin
     val etCustomTagView = findViewById<EditTextCustomTagView>(R.id.etCustomTagView)
 	etCustomTagView.setCustomTagViewBuilder(object : CustomTagViewBuilder(){
        override fun getTagView(inflater: LayoutInflater?, data: String?): View? {
@@ -63,7 +63,7 @@ text = My name is Amin Rahimzadeh ------> Separator is space
 ```
 
 ## Example Tag OnClickListener
-```Code
+```kotlin
     textCustomTagView.setCustomTagViewOnClick(object : CustomTagViewOnClick{
        override fun onClick(text: String, startPos: Int, endPost: Int) {
           Toast.makeText(applicationContext, "Clicked $text",Toast.LENGTH_LONG).show()
@@ -72,7 +72,7 @@ text = My name is Amin Rahimzadeh ------> Separator is space
 ```
 
 if you need delete tag when click them you can use this:
-```Code
+```kotlin
     textCustomTagView.setCustomTagViewOnClick(object : CustomTagViewOnClick{
        override fun onClick(text: String, startPos: Int, endPost: Int) {
           textCustomTagView.text.replaceRange(startPos,endPost,"")
